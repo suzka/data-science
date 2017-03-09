@@ -9,7 +9,8 @@ This project contains the following files:
 
 3. run_analysis.R which is the actual script
 
-4. There is a picture called project_image.png which does a good job of describing the process.
+4. There is a graphic which does a good job of describing the process:
+![](project_image.png)
 
 5. The output can be found in a file called tidy_data.txt
 
@@ -31,4 +32,17 @@ Label the data with descriptive names
 
 ### Step 5: Export
 Export a tidy dataset of averages for each column
+
+### Data Labels
+The tiday data set includes the following data:
+* A subject column (1-30)
+* An activity column
+  * laying
+  * sitting
+  * standing
+  * walking
+  * walking downstairs
+  * walking upstairs
+  
+* Averages for mean and standard deviation of the accelerometer points  
 
