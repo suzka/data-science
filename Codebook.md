@@ -9,10 +9,9 @@ This project contains the following files:
 
 3. run_analysis.R which is the actual script
 
-4. The output can be found in a file called tidy_data.txt
+4. There is a picture called project_image.png which does a good job of describing the process.
 
-The graphic below provides a good explanation of the overall process:
-![]("project_image.png")
+5. The output can be found in a file called tidy_data.txt
 
 
 ### Step 0: Prep work
