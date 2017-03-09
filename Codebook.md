@@ -11,7 +11,7 @@ This project contains the following files:
 4. The output can be found in a file called tidy_data.txt
 
 The graphic below provides a good explanation of the overall process:
-!["./project_img.png"]
+![]("./project_img.png")
 
 
 ### Step 0: Prep work
