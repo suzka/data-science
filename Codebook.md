@@ -1,20 +1,27 @@
 ### Introduction
-This project works with wearable computing data. A full description is available at the site where the data was obtained:
+This is the codebook for the output of the Getting and Cleansing Project
 
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+This project contains the following files:
+1. ReadMe.md which contains information about the goals where to find the data
+2. This Codebook.md which contains instructions and explanations for how to run the script.
+3. run_analysis.R which is the actual script
+4. The output can be found in a file called tidy_data.txt
 
-Here are the data for the project:
+### Step 0: Prep work
+Download the data files. After downloading the zip file, the file needs to be uncompressed and saved in the same directory as the run_analysis.R script
 
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+### Step 1: Read in test and training files
+Files from both the test and training directories are read in and combined into one dataset
 
-### The steps for the project are as follows:
-You should create one R script called run_analysis.R that does the following.
+### Step 2: Read in all measurements
+All of the features (columns) are read in and then ONLY the mean and std deviation measurements (columns) are kept
 
-1. Merges the training and the test sets to create one data set.
-2. Extracts only the measurements on the mean and standard deviation for each measurement.
-3. Uses descriptive activity names to name the activities in the data set
-4. Appropriately labels the data set with descriptive variable names.
-5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+### Step 3: Name the activities in the data set
+Extract the names of all of the activities in the dataset
 
-### There is a codebook with this project that describes the output dataset
-Codebook.md
+### Step 4: Labelling
+Label the data with descriptive names
+
+### Step 5: Export
+Export a tidy dataset of averages for each column
+

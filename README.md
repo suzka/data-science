@@ -18,3 +18,6 @@ You should create one R script called run_analysis.R that does the following.
 
 ### There is a codebook with this project that describes the output dataset
 Codebook.md
+
+### The tidy dataset output file is included
+tidy_data.txt
