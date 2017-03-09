@@ -2,6 +2,7 @@
 This is the codebook for the output of the Getting and Cleansing Project
 
 This project contains the following files:
+
 1. ReadMe.md which contains information about the goals where to find the data
 
 2. This Codebook.md which contains instructions and explanations for how to run the script.
@@ -11,7 +12,7 @@ This project contains the following files:
 4. The output can be found in a file called tidy_data.txt
 
 The graphic below provides a good explanation of the overall process:
-![]("./project_img.png")
+![]("./project_image.png")
 
 
 ### Step 0: Prep work
